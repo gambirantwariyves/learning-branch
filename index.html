@@ -1,14 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <h1>main-Branch</h1>
-  <h2>Feature-a</h2>
-  <h3>Feature-b</h3>
-  <p>hello</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>main-Branch</h1>
+    <h2>Feature-a</h2>
+    <h3>Feature-b</h3>
+    <p>hello</p>
+    <div id="display"></div>
+  </body>
+  <script>
+    //   console.log(100)
+
+    var number = 2;
+    number = 3;
+    console.log(number);
+
+    //   //   let result = myFunction(3,4)
+    //   //   document.getElementById("display").innerHTML = result
+    //   // function myFunction(p1, p2){
+    //   //   return p1 * p2;
+    //   // }
+
+    //   // objects
+    //   const car = {type: "BMW", model:"500", color:"white"}
+    //   console.log(car.type);
+
+    //   const boy = {
+    //     name : "Gambira",
+    //     age : 20,
+    //     fullId: function(){
+    //       return this.name + " " + this.age
+    //     }
+    //   }
+
+    // document.getElementById("display").innerHTML = boy.fullId()
+    // console.log(boy.fullId())
+    //   const girl = new Object()
+    //   girl.name = 'noel'
+    //   girl.age = 20
+    //   girl.length = 1.79
+
+    //   const change = girl
+    //   change.age = 19
+
+    //   console.log(change.age)
+
+    //   const person = {
+    //   firstName: "John",
+    //   lastName : "Doe",
+    //   age      :  50
+    // };
+    // let x = "firstName";
+
+    // console.log(person[x])
+    // delete person.age
+    // console.log(person)
+
+    // // nested object
+
+    // const myObject = {
+    //   name: "Gambira",
+    //   age: 20,
+    //   project: {
+    //     pro1: "foot cup",
+    //     pro2: "dashboard"
+    //   }
+    // }
+    // console.log(myObject.project.pro1)
+
+    // // display object
+    // let i;
+    // for (let i in myObject){
+    //   console.log(i)
+    // }
+
+    // const myArr = Object.values(myObject)
+    // console.log(myArr[0]);
+
+    // const entObject = {app: 200, banana: 100}
+    // let j;
+
+    // for([j,y] of Object.entries(entObject)){
+    //   console.log(y);
+    // }
+
+    // let myJson = JSON.stringify(entObject)
+    // console.log(myJson);
+
+    // construction
+    // function persons(fname, lname, age){
+    //   this.oFname = fname
+    //   this.oLname = lname
+    //   this.Age = age
+    // }
+
+    // const myFather = new Person("John", "Doe", 50, "blue");
+    // const myMother = new Person("Sally", "Rally", 48, "green");
+    // const mySister = new Person("Anna", "Rally", 18, "green");
+
+    // const mySelf = new Person("Johnny", "Rally", 22, "green");
+
+    // console.log(myFather.oLname);
+
+    let username;
+    let defaultName;
+
+    if (username) {
+      defaultName = username;
+    } else {
+      defaultName = "Stranger";
+    }
+
+    console.log(defaultName); // Prints: Stranger
+  </script>
 </html>
